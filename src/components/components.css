@@ -4,18 +4,22 @@
   justify-content: space-between;
   padding: 10px;
   background: #fff;
+  height: 74px;
+  flex-shrink: 0;
 }
 
 .brand-logo {
-  width: 100%;
-  height: 100%;
+  margin-left: 165px;
+  width: 131px;
+  height: 70.041px;
+  flex-shrink: 0;
 }
 
 .links-list {
   list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .nav-item {
@@ -34,4 +38,89 @@
   border: 1px solid #2d699d;
   padding: 10px 20px;
   cursor: pointer;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 10%;
+}
+
+/* .circle {
+  position: relative;
+  border-radius: 383.38px;
+  background: #d9d9d9;
+}
+.circle img {
+  position: absolute;
+} */
+
+.container {
+  position: relative;
+  width: 367.528px;
+  height: 534.487px;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fbead5;
+  border-radius: 50%;
+  width: 383.38px;
+  height: 383.38px;
+  overflow: hidden;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: auto;
+  height: 100%;
+}
+
+.login h1 {
+  color: #262b40;
+  font-size: 32px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+}
+.login p {
+  color: #313340;
+  font-size: 14px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.input {
+  display: flex;
+  width: 305px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.input input {
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.input p {
+  color: #357ab5;
+  font-size: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
 }
